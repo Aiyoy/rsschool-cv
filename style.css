@@ -74,14 +74,14 @@ p {
     font-weight: 400;
 }
 #code {
-    padding: 1rem 2rem;
     background-color: rgba(112, 112, 112, 1);
     color:rgba(214, 236, 253, 1);
     font-weight: 700;
     font-size: 1.2rem;
 }
-.code-insade {
-    padding: 0 2rem
+#code-insade {
+    position: relative;
+    left: -240px;
 }
 
 /* Sidebar*/
