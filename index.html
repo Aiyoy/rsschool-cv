@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Veronika Yashchenkova</title>
+    </head>
+    <body>
+        <div class="page">
+            <header class="header">
+                <h1 class="header-title" id="top">Veronika YASHCHENKOVA</h1>
+                <nav class="nav">
+                    <a class="header-nav-link hidden-link" href="#main">MAIN INFORMATION</a>
+                    <a class="header-nav-link" href="#about">ABOUT ME</a>
+                    <a class="header-nav-link" href="#education">EDUCATION</a>
+                    <a class="header-nav-link" href="#code-example">CODE EXAMPLE</a>
+                    <a class="header-nav-link" href="#projects">PROJECTS</a>
+                    <a class="header-nav-link" href="#languages">LANGUAGES</a>
+                </nav>
+            </header>
+            <div class="contanier">
+                <main class="content">
+                    <section class="chapter">
+                        <h2 class="chapter-title" id="about">About myself</h2>
+                        <div class="chapter-text">
+                            <p>At the moment I work as a customs officer, but I would like to learn new things, develop in new area. My strengths are:</p>
+                            <ul class="list">
+                                <li>Increased efficiency</li>
+                                <li>Stress tolerance</li>
+                                <li>Multitasking</li>
+                                <li>Teamwork</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="chapter">
+                        <h4 class="chapter-title" id="education">Education</h4>
+                        <div class="chapter-text">
+                            <p>Belarusian National Technical University:</p>
+                            <ul class="list">
+                                <li>Faculty of Management Technologies and Humanitarization</li>
+                                <li>Branch of BNTU "Institute for Advanced Studies and Retraining of Personnel in New Directions of Development of Engineering, Technology and Economics"</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="chapter">
+                        <h4 class="chapter-title" id="code-example">Code example</h4>
+                        <div class="chapter-text">
+                            <p id="task">Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number.</p>
+                            <pre id="code">
+                                <code id="code-insade">
+                                    function createPhoneNumber(arr){
+                                        return String(`(${arr[0]}${arr[1]}${arr[2]})
+                                        ${arr[3]}${arr[4]}${arr[5]}-${arr[6]}
+                                        ${arr[7]}${arr[8]}${arr[9]}`);
+                                    }
+                                </code>
+                            </pre>
+                        </div>
+                    </section>
+                    <section class="chapter">
+                        <h5 class="chapter-title">Languages</h5>
+                        <ul class="list">
+                            <li class="list-cell">Russian - native speaker</li>
+                            <li class="list-cell">Belarusian - native speaker</li>
+                            <li class="list-cell">English - B1</li>
+                        </ul>
+                    </section>
+                </main>
+                <aside class="sidebar">
+                    <img class="main-img" src="img/myPhoto.jpg" alt="My photo">
+                    <section class="sidebar-chapter">
+                        <h3 class="sidebar-chapter-title">Contact information</h3>
+                        <ul id="contact-list">
+                            <li class="contact-list-cell">
+                                <img class="contact-icon" src="img/phone.png" alt="Tel:">
+                                <a class="contact-link" href="tel:+375447095068">+375&nbsp;44&nbsp;709&#8209;50&#8209;68</a>
+                            </li>
+                            <li class="contact-list-cell">
+                                <img class="contact-icon" src="img/email.png" alt="E-mail::">
+                                <a class="contact-link" href="mailto:ronkaarizona@gmail.com">ronkaarizona@gmail.com</a>
+                            </li>
+                            <li class="contact-list-cell">
+                                <img class="contact-icon" src="img/telegram.png" alt="Telegram:">
+                                <a class="contact-link" href="https://t.me/Aiyooy">Aiyooy</a>
+                            </li>
+                            <li class="contact-list-cell">
+                                <img class="contact-icon" src="img/github.png" alt="Telegram:">
+                                <a class="contact-link" href="https://github.com/Aiyoy">Aiyoy</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="sidebar-chapter">
+                        <h4 class="sidebar-chapter-title">Skills</h4>
+                        <ul class="list">
+                            <li class="list-cell">HTML/CSS</li>
+                            <li class="list-cell">JS</li>
+                            <li class="list-cell">Git</li>
+                            <li class="list-cell">Adobe Photoshop, Adobe Illustrator</li>
+                        </ul>
+                    </section>
+                </aside>
+            </div>
+            <footer class="footer">
+                <a class="footer-block" href="https://rs.school/js/">
+                    <img class="footer-icon" src="img/rs_school_js.svg" alt="RSSchool">
+                </a>
+                <div class="footer-block">Created on 2021</div>
+                <a class="footer-block" href="https://github.com/Aiyoy" target="_blank">
+                    <img class="footer-icon" src="img/github_Big.png" alt="GitHub">
+                </a>
+            </footer>
+        </div>
+    </body>
+</html>
