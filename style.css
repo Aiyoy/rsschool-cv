@@ -15,11 +15,11 @@ body {
 *::after {
     box-sizing: border-box;
 }
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
     margin: 0;
 }
@@ -35,7 +35,7 @@ code {
     background: rgba(75, 75, 75, 1);
 }
 .contanier {
-    display: flex;    
+    display: flex;
     position: relative;
     width: 100%;
     min-height: 600px;
@@ -193,104 +193,5 @@ code {
     vertical-align: middle;
 }
 .footer-icon {
-    height: 40px;
+    height: 100%;
 }
-
-/* BUTTON */
-.btn {
-    display: block;
-    background-color: rgba(214, 236, 253, 1);
-    border: 2px solid rgba(214, 236, 253, 1);
-    padding: 0.5rem 1.5rem;
-    cursor: pointer;
-    position: fixed;
-    bottom: 30px;
-    right: 10px;
-    z-index: 99; 
-    width: 50px;
-    height: 50px;
-    padding: 0;
-    border-radius: 50%;
-    outline: none;
-    transition: 0.2s;
-}
-.btn:hover, .btn:active {
-    background-color: rgba(124, 187, 235, 1);
-    border: 2px solid rgba(124, 187, 235, 1);
-}
-.btn-icon {
-    width: 100%;
-    opacity: 0.8;
-}
-
-/* Media*/
-@media (max-width: 768px) {
-    .header {
-        flex-direction: column;
-    }
-    .hidden-link {
-        display: inline-block;
-    }
-    .contanier {
-        display: block;
-    }
-    .sidebar {
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 1rem;
-    }
-    .sidebar-chapter {
-        width: 33%;
-        padding: 0 0.5rem;
-    }
-    .main-img {
-        width: 70%;
-        padding-top: 0.5rem;
-    }
-    .content {
-        width: 80%;
-        margin: 0 auto;
-    }
-    .conteiner-btn {
-        display: inline-block;
-    }
-}
-
-@media (max-width: 650px) {
-    html {
-        font-size: 8px;
-    }
-    .footer {
-        height: 40px;
-    }
-    .footer-icon {
-        height: 30px;
-    }
-}
-
-@media (max-width: 440px) {
-    html {
-        font-size: 6px;
-    }    
-    .nav {
-        width: 100%;
-        display: flexbox;
-        padding: 0 1rem;
-    }
-    .btn {
-        width: 35px;
-        height: 35px;
-    }
-}
-
-@media (max-width: 400px) {
-    html {
-        font-size: 5px;
-    } 
-    #code-insade {
-        left: -20rem;
-    }
-}
-
