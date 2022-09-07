@@ -4,18 +4,32 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         <title>Veronika Yashchenkova</title>
     </head>
     <body>
         <div class="page">
             <header class="header">
-                <h1 class="header-title">VERONIKA YASHCHENKOVA</h1>
+                <h1 class="header-title" id="top">Veronika YASHCHENKOVA</h1>
+                <nav class="nav">
+                    <a class="header-nav-link hidden-link" href="#main">MAIN INFORMATION</a>
+                    <a class="header-nav-link" href="#about">ABOUT ME</a>
+                    <a class="header-nav-link" href="#education">EDUCATION</a>
+                    <a class="header-nav-link" href="#code-example">CODE EXAMPLE</a>
+                    <a class="header-nav-link" href="#projects">PROJECTS</a>
+                    <a class="header-nav-link" href="#languages">LANGUAGES</a>
+                </nav>
             </header>
             <div class="contanier">
                 <main class="content">
                     <section class="chapter">
-                        <h2 class="chapter-title">About myself</h2>
+                        <h2 class="chapter-title" id="about">About myself</h2>
                         <div class="chapter-text">
                             <p>At the moment I work as a customs officer, but I would like to learn new things, develop in new area. My strengths are:</p>
                             <ul class="list">
@@ -27,7 +41,7 @@
                         </div>
                     </section>
                     <section class="chapter">
-                        <h4 class="chapter-title">Education</h4>
+                        <h4 class="chapter-title" id="education">Education</h4>
                         <div class="chapter-text">
                             <p>Belarusian National Technical University:</p>
                             <ul class="list">
@@ -37,7 +51,7 @@
                         </div>
                     </section>
                     <section class="chapter">
-                        <h4 class="chapter-title">Code example</h4>
+                        <h4 class="chapter-title" id="code-example">Code example</h4>
                         <div class="chapter-text">
                             <p id="task">Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number.</p>
                             <pre id="code">
@@ -99,7 +113,7 @@
                     <img class="footer-icon" src="img/rs_school_js.svg" alt="RSSchool">
                 </a>
                 <div class="footer-block">Created on 2021</div>
-                <a class="footer-block" href="https://github.com/Aiyoy">
+                <a class="footer-block" href="https://github.com/Aiyoy" target="_blank">
                     <img class="footer-icon" src="img/github_Big.png" alt="GitHub">
                 </a>
             </footer>
